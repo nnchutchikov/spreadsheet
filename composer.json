@@ -1,11 +1,11 @@
 {
-  "name": "lalilalai/spreadsheet",
+  "name": "nnchutchikov/spreadsheet",
   "description": "Simple spreadsheet realization on PHPOffice/PHPSpreadsheet to validate spreadsheet and transform it to objects",
   "type": "library",
   "authors": [
     {
-      "name": "Lalilalai",
-      "email": "lalilalai.programmer@gmail.com"
+      "name": "nnchutchikov",
+      "email": "nnchutchikov@gmail.com"
     }
   ],
   "require": {
