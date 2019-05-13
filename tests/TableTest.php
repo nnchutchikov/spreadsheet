@@ -1,14 +1,14 @@
 <?php
 declare (strict_types = 1);
 
-namespace Lalilalai\Spreadsheet\Tests;
+namespace NNChutchikov\Spreadsheet\Tests;
 
-use Lalilalai\Spreadsheet\Spreadsheet\Table;
+use NNChutchikov\Spreadsheet\Spreadsheet\Table;
 
 /**
- * @covers Lalilalai\Spreadsheet\Spreadsheet\Table
- * @covers Lalilalai\Spreadsheet\Spreadsheet\Row
- * @covers Lalilalai\Spreadsheet\Spreadsheet\Cell
+ * @covers NNChutchikov\Spreadsheet\Spreadsheet\Table
+ * @covers NNChutchikov\Spreadsheet\Spreadsheet\Row
+ * @covers NNChutchikov\Spreadsheet\Spreadsheet\Cell
  */
 class TableTest extends \PHPUnit\Framework\TestCase
 {

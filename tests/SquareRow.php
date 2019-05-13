@@ -1,7 +1,7 @@
 <?php
 declare (strict_types = 1);
 
-namespace Lalilalai\Spreadsheet\Tests;
+namespace NNChutchikov\Spreadsheet\Tests;
 
 class SquareRow
 {

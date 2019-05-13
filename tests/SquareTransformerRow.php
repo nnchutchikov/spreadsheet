@@ -1,10 +1,10 @@
 <?php
 declare (strict_types = 1);
 
-namespace Lalilalai\Spreadsheet\Tests;
+namespace NNChutchikov\Spreadsheet\Tests;
 
-use Lalilalai\Spreadsheet\Spreadsheet\Row;
-use Lalilalai\Spreadsheet\Tests\SquareRow;
+use NNChutchikov\Spreadsheet\Spreadsheet\Row;
+use NNChutchikov\Spreadsheet\Tests\SquareRow;
 
 class SquareTransformerRow
 {

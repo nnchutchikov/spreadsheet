@@ -1,10 +1,10 @@
 <?php
 declare (strict_types = 1);
 
-namespace Lalilalai\Spreadsheet;
+namespace NNChutchikov\Spreadsheet;
 
-use Lalilalai\Spreadsheet\Exception;
-use Lalilalai\Spreadsheet\Spreadsheet\Table;
+use NNChutchikov\Spreadsheet\Exception;
+use NNChutchikov\Spreadsheet\Spreadsheet\Table;
 
 class Loader
 {

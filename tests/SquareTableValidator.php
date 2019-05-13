@@ -1,13 +1,13 @@
 <?php
 declare (strict_types = 1);
 
-namespace Lalilalai\Spreadsheet\Tests;
+namespace NNChutchikov\Spreadsheet\Tests;
 
-use Lalilalai\Spreadsheet\Spreadsheet\Table;
-use Lalilalai\Spreadsheet\Tests\SquareDataRowValidator;
-use Lalilalai\Spreadsheet\Tests\SquareHeadRowValidator;
-use Lalilalai\Spreadsheet\ValidatorResult;
-use Lalilalai\Spreadsheet\Validators\TableValidator;
+use NNChutchikov\Spreadsheet\Spreadsheet\Table;
+use NNChutchikov\Spreadsheet\Tests\SquareDataRowValidator;
+use NNChutchikov\Spreadsheet\Tests\SquareHeadRowValidator;
+use NNChutchikov\Spreadsheet\ValidatorResult;
+use NNChutchikov\Spreadsheet\Validators\TableValidator;
 
 class SquareTableValidator extends TableValidator
 {

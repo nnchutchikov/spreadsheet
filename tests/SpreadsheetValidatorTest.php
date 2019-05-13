@@ -1,17 +1,17 @@
 <?php
 declare (strict_types = 1);
 
-namespace Lalilalai\Spreadsheet\Tests;
+namespace NNChutchikov\Spreadsheet\Tests;
 
-use Lalilalai\Spreadsheet\Loader;
-use Lalilalai\Spreadsheet\Tests\SquareTableValidator;
+use NNChutchikov\Spreadsheet\Loader;
+use NNChutchikov\Spreadsheet\Tests\SquareTableValidator;
 
 /**
- * @covers Lalilalai\Spreadsheet\Validator
- * @covers Lalilalai\Spreadsheet\Validators\TableValidator
- * @covers Lalilalai\Spreadsheet\Validators\RowValidator
- * @covers Lalilalai\Spreadsheet\Validators\CellValidator
- * @covers Lalilalai\Spreadsheet\ValidatorResult
+ * @covers NNChutchikov\Spreadsheet\Validator
+ * @covers NNChutchikov\Spreadsheet\Validators\TableValidator
+ * @covers NNChutchikov\Spreadsheet\Validators\RowValidator
+ * @covers NNChutchikov\Spreadsheet\Validators\CellValidator
+ * @covers NNChutchikov\Spreadsheet\ValidatorResult
  */
 class SpreadsheetValidatorTest extends \PHPUnit\Framework\TestCase
 {

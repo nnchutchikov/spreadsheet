@@ -1,7 +1,7 @@
 <?php
 declare (strict_types = 1);
 
-namespace Lalilalai\Spreadsheet\Spreadsheet;
+namespace NNChutchikov\Spreadsheet\Spreadsheet;
 
 class Table
 {

@@ -1,7 +1,7 @@
 <?php
 declare (strict_types = 1);
 
-namespace Lalilalai\Spreadsheet;
+namespace NNChutchikov\Spreadsheet;
 
 class ValidatorResult
 {

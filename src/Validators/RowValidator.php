@@ -1,11 +1,11 @@
 <?php
 declare (strict_types = 1);
 
-namespace Lalilalai\Spreadsheet\Validators;
+namespace NNChutchikov\Spreadsheet\Validators;
 
-use Lalilalai\Spreadsheet\Spreadsheet\Row;
-use Lalilalai\Spreadsheet\ValidatorResult;
-use Lalilalai\Spreadsheet\Validator;
+use NNChutchikov\Spreadsheet\Spreadsheet\Row;
+use NNChutchikov\Spreadsheet\ValidatorResult;
+use NNChutchikov\Spreadsheet\Validator;
 
 abstract class RowValidator extends Validator
 {

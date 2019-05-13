@@ -1,14 +1,14 @@
 <?php
 declare (strict_types = 1);
 
-namespace Lalilalai\Spreadsheet\Tests;
+namespace NNChutchikov\Spreadsheet\Tests;
 
-use Lalilalai\Spreadsheet\Loader;
-use Lalilalai\Spreadsheet\Tests\SquareRow;
-use Lalilalai\Spreadsheet\Tests\SquareTransformer;
+use NNChutchikov\Spreadsheet\Loader;
+use NNChutchikov\Spreadsheet\Tests\SquareRow;
+use NNChutchikov\Spreadsheet\Tests\SquareTransformer;
 
 /**
- * @covers Lalilalai\Spreadsheet\Transformer
+ * @covers NNChutchikov\Spreadsheet\Transformer
  */
 class TransformerTest extends \PHPUnit\Framework\TestCase
 {

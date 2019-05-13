@@ -1,14 +1,14 @@
 <?php
 declare (strict_types = 1);
 
-namespace Lalilalai\Spreadsheet\Tests;
+namespace NNChutchikov\Spreadsheet\Tests;
 
-use Lalilalai\Spreadsheet\Loader;
-use Lalilalai\Spreadsheet\Spreadsheet\Table;
+use NNChutchikov\Spreadsheet\Loader;
+use NNChutchikov\Spreadsheet\Spreadsheet\Table;
 
 /**
- * @covers Lalilalai\Spreadsheet\Loader
- * @covers Lalilalai\Spreadsheet\Exception
+ * @covers NNChutchikov\Spreadsheet\Loader
+ * @covers NNChutchikov\Spreadsheet\Exception
  */
 class LoaderTest extends \PHPUnit\Framework\TestCase
 {
@@ -66,24 +66,24 @@ class LoaderTest extends \PHPUnit\Framework\TestCase
 
     public function testAbsentFileLoader()
     {
-        $this->expectException(\Lalilalai\Spreadsheet\Exception::class);
-        $this->expectExceptionCode(\Lalilalai\Spreadsheet\Exception::EXCP_FILE_NOT_FOUND);
+        $this->expectException(\NNChutchikov\Spreadsheet\Exception::class);
+        $this->expectExceptionCode(\NNChutchikov\Spreadsheet\Exception::EXCP_FILE_NOT_FOUND);
 
         $loader = new Loader('absent_file');
     }
 
     public function testUnknownFileTypeLoader()
     {
-        $this->expectException(\Lalilalai\Spreadsheet\Exception::class);
-        $this->expectExceptionCode(\Lalilalai\Spreadsheet\Exception::EXCP_WRONG_SPREADSHEET_FILE_TYPE);
+        $this->expectException(\NNChutchikov\Spreadsheet\Exception::class);
+        $this->expectExceptionCode(\NNChutchikov\Spreadsheet\Exception::EXCP_WRONG_SPREADSHEET_FILE_TYPE);
 
         $loader = new Loader(self::PATH_TXT);
     }
 
     public function testWrongFileTypeLoader()
     {
-        $this->expectException(\Lalilalai\Spreadsheet\Exception::class);
-        $this->expectExceptionCode(\Lalilalai\Spreadsheet\Exception::EXCP_BROKEN_SPREADSHEET_FILE);
+        $this->expectException(\NNChutchikov\Spreadsheet\Exception::class);
+        $this->expectExceptionCode(\NNChutchikov\Spreadsheet\Exception::EXCP_BROKEN_SPREADSHEET_FILE);
 
         $loader = new Loader(self::PATH_WRONG);
     }

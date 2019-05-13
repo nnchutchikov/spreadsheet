@@ -1,11 +1,11 @@
 <?php
 declare (strict_types = 1);
 
-namespace Lalilalai\Spreadsheet\Tests;
+namespace NNChutchikov\Spreadsheet\Tests;
 
-use Lalilalai\Spreadsheet\Spreadsheet\Table;
-use Lalilalai\Spreadsheet\Tests\SquareTransformerRow;
-use Lalilalai\Spreadsheet\Transformer;
+use NNChutchikov\Spreadsheet\Spreadsheet\Table;
+use NNChutchikov\Spreadsheet\Tests\SquareTransformerRow;
+use NNChutchikov\Spreadsheet\Transformer;
 
 class SquareTransformer extends Transformer
 {

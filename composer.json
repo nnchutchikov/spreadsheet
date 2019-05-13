@@ -17,8 +17,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Lalilalai\\Spreadsheet\\": "src/",
-      "Lalilalai\\Spreadsheet\\Tests\\": "tests/"
+      "NNChutchikov\\Spreadsheet\\": "src/",
+      "NNChutchikov\\Spreadsheet\\Tests\\": "tests/"
     }
   },
   "prefer-stable": true

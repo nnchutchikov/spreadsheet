@@ -1,11 +1,11 @@
 <?php
 declare (strict_types = 1);
 
-namespace Lalilalai\Spreadsheet\Tests;
+namespace NNChutchikov\Spreadsheet\Tests;
 
-use Lalilalai\Spreadsheet\Spreadsheet\Cell;
-use Lalilalai\Spreadsheet\ValidatorResult;
-use Lalilalai\Spreadsheet\Validators\CellValidator;
+use NNChutchikov\Spreadsheet\Spreadsheet\Cell;
+use NNChutchikov\Spreadsheet\ValidatorResult;
+use NNChutchikov\Spreadsheet\Validators\CellValidator;
 
 class SquareConstCellValidator extends CellValidator
 {
