@@ -1,0 +1,25 @@
+{
+  "name": "lalilalai/spreadsheet",
+  "description": "Simple spreadsheet realization on PHPOffice/PHPSpreadsheet to validate spreadsheet and transform it to objects",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Lalilalai",
+      "email": "lalilalai.programmer@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "phpoffice/phpspreadsheet": "^1.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lalilalai\\Spreadsheet\\": "src/",
+      "Lalilalai\\Spreadsheet\\Tests\\": "tests/"
+    }
+  },
+  "prefer-stable": true
+}
